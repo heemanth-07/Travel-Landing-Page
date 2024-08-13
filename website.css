@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#navbar{
+    background-color: white;
+    
+}
+
+#logo{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+#logo span{
+    color: green;
+}
+
+.nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    transition: all ease 0.5s;
+
+}
+
+.nav-item .nav-link:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+
+}
+
+#navbar form button{
+    background-color: green;
+    color: white;
+    
+}
+
+
+.HOME{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.HOME .content{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.HOME h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0px 1px 1px black;
+}
+
+h1 span{
+    color: green;
+}
+
+.HOME h4{
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 0px 1px 1px black;
+    margin: 25px;
+    letter-spacing: 2px;
+}
+
+.HOME p{
+    font-size: 26px;
+    font-weight: 300;
+    text-shadow: 0px 1px 5px black;
+    color: white;
+    margin: 20px;
+
+}
+
+.HOME a{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.HOME a:hover{
+    background-color: orange;
+}
+
+.changecontent::after{
+    content: '';
+    color: orange;
+    text-shadow: 0px 0px 5px black;
+    animation: changetext 10s infinite linear;
+    
+}
+
+@keyframes changetext{
+    0%{content: "ICELAND";}
+    10%{content: "SRI LANKA";}
+    20%{content: "THAILAND";}
+    30%{content: "GERMANY";}
+    40%{content: "FRANCE";}
+    50%{content: "DUBAI";}
+    60%{content: "VIETNAM";}
+    70%{content: "UNITED STATES OF AMERICA";}
+    80%{content: "CANADA";}
+    90%{content: "BRAZIL";}
+    100%{content: "OMAN";}
+    
+}
+
+.gallery .container h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500px;
+    letter-spacing: 2px;
+}
+
+.container h1 span{
+    color: green;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: green;
+    
+}
+
+.book{
+    background-color: white;
+    padding: 50px;
+   
+    
+}
+
+.main-text h1{
+    color: orange;
+    font-size: 32PX;
+    font-weight: 800;
+    letter-spacing: 2PX;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+}
+
+.book form input{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 10px;
+    
+}
+
+.book form textarea{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 10px;
+
+}
+
+
+.book button{
+    background-color: orange;
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.aboutus{
+    background-color: white;
+    padding: 50px;
+}
+
+.aboutus .txt h1{
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.t1{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.aboutus h2{
+    font-weight: 500;
+}
+
+#contact{
+    text-align: center;
+}
+
+.social {
+    font-size: 32px;
+    letter-spacing: 20px;
+    color:black;
+    j: end;
+    margin-bottom: 10px;
+}
+
+
+.Asia .maint h1{
+    text-align: center;
+    margin-bottom: 20PX;
+    font-weight: 600;
+}
+
+
+
+.card-body h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.Asia .card p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+.NorthAmerica .card p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+.Europe .card p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+
+.contact h3{
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.contact i{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.contact i:hover{
+    background-color: green;
+}
+
+.contactdet{
+    padding-top: 10px;
+    font-size: 25px;
+}
